@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Form Thingie</title>
+     <link rel="stylesheet" href="Styles/styles.css">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <form>
+          <h1 id="introH1">aaaa</h1>
+          <p>A quick quiz on the Halo Series (Bungie Era(No, not the disappointing Paramount+ show))</p>
+          <br><br>
+          <label for="username">But first, your User Name:</label>
+          <input type="text" id="username">
+          <div class="username">_______________________________________________</div>
+<br><br>
+<h2>HERE WE GO!</h2>
+          <label for="q1">1. What Colour is Master Chief's Armor?</label>
+          <input type="text" name="" id="q1">
+          <br><br>
+
+
+          <label for="q2">2. Whomst Composed The SoundTrack for all Bungie Halo Titles?</label>
+               <select  name="" id="q2">
+               <option value="hans">Hans Zimmer</option>
+               <option value="john">John Williams</option>
+               <option value="mart">Marty O'Donnell</option>
+               <option value="enrique">Enrique Iglesias</option>
+               </select> 
+
+          <br><br>
+
+          <label for="q3">3. Is the Arbiter's name Thel 'Vadam, and is he the most awesome character aside from Mastter Chief? <br> Check the box if True</label>
+          <br>
+          <input type="checkbox" name="Troe or False?" id="q3"> 
+
+          <br><br>
+
+          <label for="q4">4. True or False: Has Master Chief's face been revealed at any point in the game series?</label> <br>
+          <label>True</label>
+          <input type="radio" value="true" name="q4">
+          <label>False</label>
+          <input type="radio" value="false" name="q4">
+
+          <br><br>
+
+          <label for="q5">5. What is the purpose of the Halo Rings (Halo Array)?</label>
+               <select  name="" id="q5">
+               <option value="a">To Spread Love To their Neighbours</option>
+               <option value="b">To be a Wedding ring used by the Covenant Gods</option>
+               <option value="c">To Summon Cthulu</option>
+               <option value="d">To Annihilate all life within a 25,000 light year radius of each ring, or all in the galaxy if used at once.</option>
+               </select> 
+
+          <br><br>
+
+          <button onclick="submit()" type="submit" id="submitBtn">Submit</button>
+     </form>     
+
+     <div id="results"></div>
+
+     <script src="JS/code.js"></script>
+</body>
+</html>

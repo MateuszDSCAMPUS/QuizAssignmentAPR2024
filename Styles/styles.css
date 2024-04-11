@@ -1,0 +1,25 @@
+form {
+     margin: 10%;
+     background-color: wheat;
+     border-radius: 10px;
+     border-width: 5px;
+     border-style: solid;
+     padding: 5%;
+}
+
+.username {
+     border-style: solid;
+     border-bottom: 5px;
+     border-top: 0px;
+     border-left: 0ps;
+     border-right: 0px;
+}
+
+#results {
+     margin: 10%;
+     background-color: wheat;
+     border-radius: 10px;
+     border-width: 5px;
+     border-style: solid;
+     padding: 5%;
+}
